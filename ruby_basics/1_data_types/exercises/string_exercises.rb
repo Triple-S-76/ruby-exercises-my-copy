@@ -5,7 +5,8 @@ end
 
 def concatenate(string)
   # use concatenation to format the result to be "Hello <string>!"
-  newString = "Hello " + string + "!"
+  #"Hello " + string + "!"
+  "Hello #{string}!"
 end
 
 def substrings(word)
